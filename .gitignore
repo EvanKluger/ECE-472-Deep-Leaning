@@ -1,0 +1,13 @@
+# ignore ALL .pytest_cache files
+*.pytest_cache
+
+# ignore ALL files in ANY directory
+pytest_cache
+__pycache__
+
+# ignore ALL files in ANY directory named requirements
+*requirements.txt
+
+# Ignore all .tar and .gz files
+*.tar
+*.gz
